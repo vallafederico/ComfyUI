@@ -1,43 +1,33 @@
 ## ComfyUI-Manager: installing dependencies done.
-[2024-08-14 22:50] ** ComfyUI startup time: 2024-08-14 22:50:38.887032
-[2024-08-14 22:50] ** Platform: Darwin
-[2024-08-14 22:50] ** Python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
-[2024-08-14 22:50] ** Python executable: /Users/federicovalla/miniconda3/bin/python
-[2024-08-14 22:50] ** ComfyUI Path: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI
-[2024-08-14 22:50] ** Log path: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI/comfyui.log
-[2024-08-14 22:50] 
+[2024-08-14 22:52] ** ComfyUI startup time: 2024-08-14 22:52:20.640888
+[2024-08-14 22:52] ** Platform: Darwin
+[2024-08-14 22:52] ** Python version: 3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 12:57:28) [Clang 14.0.6 ]
+[2024-08-14 22:52] ** Python executable: /Users/federicovalla/miniconda3/bin/python
+[2024-08-14 22:52] ** ComfyUI Path: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI
+[2024-08-14 22:52] ** Log path: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI/comfyui.log
+[2024-08-14 22:52] 
 Prestartup times for custom nodes:
-[2024-08-14 22:50]    0.7 seconds: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-08-14 22:50] 
-[2024-08-14 22:50] Total VRAM 65536 MB, total RAM 65536 MB
-[2024-08-14 22:50] Traceback (most recent call last):
-  File "/Users/federicovalla/Documents/Work/fooo/py/ComfyUI/comfy/model_management.py", line 211, in <module>
-    import accelerate
-ModuleNotFoundError: No module named 'accelerate'
-[2024-08-14 22:50] 
-[2024-08-14 22:50] ERROR: LOW VRAM MODE NEEDS accelerate.
-[2024-08-14 22:50] Set vram state to: SHARED
-[2024-08-14 22:50] Device: mps
-[2024-08-14 22:50] VAE dtype: torch.float32
-[2024-08-14 22:50] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
-[2024-08-14 22:50] ### Loading: ComfyUI-Manager (V2.48.8)
-[2024-08-14 22:50] 
-
-## [WARN] ComfyUI-Manager: Your ComfyUI version (1549)[2023-10-09] is too old. Please update to the latest version. ##
-
-[2024-08-14 22:50] 
-[2024-08-14 22:50] ### ComfyUI Revision: 1549 [d1a0abd4] | Released on '2023-10-09'
-[2024-08-14 22:50] 
+[2024-08-14 22:52]    0.6 seconds: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-08-14 22:52] 
+Total VRAM 65536 MB, total RAM 65536 MB
+[2024-08-14 22:52] pytorch version: 2.4.0.dev20240516
+[2024-08-14 22:52] Set vram state to: SHARED
+[2024-08-14 22:52] Device: mps
+[2024-08-14 22:52] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-08-14 22:52] [Prompt Server] web root: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI/web
+[2024-08-14 22:52] ### Loading: ComfyUI-Manager (V2.48.8)
+[2024-08-14 22:52] ### ComfyUI Revision: 2539 [f1d6cef7] | Released on '2024-08-14'
+[2024-08-14 22:52] 
 Import times for custom nodes:
-[2024-08-14 22:50]    0.1 seconds: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-08-14 22:50] 
-[2024-08-14 22:50] Starting server
-[2024-08-14 22:50] 
-[2024-08-14 22:50] To see the GUI go to: http://127.0.0.1:8188
-[2024-08-14 22:50] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-08-14 22:50] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
-[2024-08-14 22:50] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-08-14 22:50] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-08-14 22:50] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-08-14 22:51] 
-Stopped server
+[2024-08-14 22:52]    0.0 seconds: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-08-14 22:52]    0.1 seconds: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-08-14 22:52] 
+[2024-08-14 22:52] Starting server
+
+[2024-08-14 22:52] To see the GUI go to: http://127.0.0.1:8188
+[2024-08-14 22:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-08-14 22:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-08-14 22:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-08-14 22:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-08-14 22:52] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-08-14 22:52] FETCH DATA from: /Users/federicovalla/Documents/Work/fooo/py/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
